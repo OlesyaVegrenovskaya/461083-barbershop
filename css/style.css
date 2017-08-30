@@ -21,7 +21,18 @@ a {
   
   text-align: center;
   color: #ffffff;
-  vertical-alig
+  vertical-align: middle;
+  text-transform: uppercase;
+  
+  background-color:#000000;
+  border: none;
+}
+.button: hover,
+.button: focus,
+.button: active {
+  background-color:#663d15;
+}
+  
   
    
   
