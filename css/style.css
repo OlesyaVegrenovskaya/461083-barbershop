@@ -132,7 +132,7 @@ a {
   color: #000000;
   
   background-color: #f8f3f0;
-  backround-image: url("img/pattern-light.jpg");
+  background-image: url("img/pattern-light.jpg");
   background-position: 0 0;
   background-repeat: repeat;
 }
@@ -149,7 +149,7 @@ a {
   background-color: #f9f6f3;
   border: 2px solid #000000;
 }
-.login-form input: focus {
+.login-form input:focus {
   border-color: #663d15;
 }
 .login-checkbox:hover,
