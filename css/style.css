@@ -27,9 +27,9 @@ a {
   background-color:#000000;
   border: none;
 }
-.button: hover,
-.button: focus,
-.button: active {
+.button:hover,
+.button:focus,
+.button:active {
   background-color:#663d15;
 }
 .main-navigation {
@@ -66,7 +66,7 @@ a {
 .index-column {
   color:#000000;
   
-  background-color: f8f5f2;
+  background-color: #f8f5f2;
   background-image: url("img/pattern-light.jpg");
   background-position: 0 0;  
   background-repeat: repeat;
@@ -152,15 +152,15 @@ a {
 .login-form input: focus {
   border-color: #663d15;
 }
-.login-checkbox: hover;
-.login-checkbox: fokus {
+.login-checkbox:hover,
+.login-checkbox:fokus {
   color: #663d15;
 }
 .restore {
   color: #000000;
   text-decoration:underline;
 }
-.restore:hover
+.restore:hover,
 .restore:focus {
   text-decoration: none;
 }
