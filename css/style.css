@@ -399,6 +399,37 @@ body {
   /*--------Временно для сетки--------*/
   min-height: 340px;
 }
+.main-footer {
+  margin-top: 65px;
+  /*--------Временно для сетки--------*/
+  background: none;
+  min-height: 180px;
+}
+.main-footer .container {
+  display: flex;
+}
+.footer-contacts {
+  width: 320px;
+  margin: 0;
+  margin-right: 80px;
+  /*--------Временно для сетки--------*/
+   min-height: 100px;
+}
+.footer-social {
+  width: 320px;
+  /*--------Временно для сетки--------*/
+   min-height: 100px;
+}
+.footer-copyright {
+  width: 320px;
+  margin: 0;
+  margin-left: auto;
+  /*--------Временно для сетки--------*/
+   min-height: 100px;
+}
+  
+  
+  
   
   
   
