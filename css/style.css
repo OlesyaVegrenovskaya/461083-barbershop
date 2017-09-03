@@ -480,6 +480,7 @@ catalog-list {
   flex-wrap:wrap;
   padding: 0;
   margin: 0;
+  margin-bottom: 25px;
   
   list-style: none;
 }
@@ -508,7 +509,9 @@ catalog-list {
   
 min-height: 47px;
 }
-  
+.inner-page .main-footer {
+  margin-top: 45px;
+}
   
   
   
