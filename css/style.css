@@ -310,17 +310,22 @@ body {
   main-height: 285px;
 }
 .main-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   /*--------Временно для сетки--------*/
   main-height: 285px;
   background-color: transparent;
 }
 .main-header-logo {
+  order: 2;
   width: 368px;
   height 153px;
   /*--------Временно для сетки--------*/
-  display: block;
+  /*display: block;*/
 }
 .site-navigation {
+  widht: 620px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -328,6 +333,7 @@ body {
   min-height: 70px;
 }
 .user-navigation {
+  widht: 140px;
   margin: 0;
   padding: 0;
   list-style: none;
