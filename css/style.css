@@ -354,7 +354,7 @@ body {
 .features {
   margin-bottom: 80px;
 }
-.feauters-list {
+.features-list {
   display:flex;
   justify-content: space-between;
   margin: 0;
@@ -364,7 +364,7 @@ body {
   /*--------Временно для сетки--------*/
   min-height: 170px;
 }
-.feauters-item {
+.features-item {
   widht: 300px;
   /*--------Временно для сетки--------*/
   min-height: 170px;
