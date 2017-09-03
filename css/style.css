@@ -298,4 +298,43 @@ h3 { font-size: 24px;
      line-height:30px; 
      color:#000000; 
 }
+/*--------Сеточные стили--------*/
+html,
+body {
+  min-widht: 1122px;
+  min-height: 1750px;
+}
+.main-header {
+  margin-botton: 75px;
+/*--------Временно для сетки--------*/
+  main-height: 285px;
+}
+.main-navigation {
+  /*--------Временно для сетки--------*/
+  main-height: 285px;
+  background-color: transparent;
+}
+.main-header-logo {
+  width: 368px;
+  height 153px;
+  /*--------Временно для сетки--------*/
+  display: block;
+}
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /*--------Временно для сетки--------*/
+  min-height: 70px;
+}
+.user-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /*--------Временно для сетки--------*/
+  min-height: 70px;
+}
+  
+  
+  
 
