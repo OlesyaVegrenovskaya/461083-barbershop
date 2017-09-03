@@ -351,6 +351,24 @@ body {
   /*--------Временно для сетки--------*/
   min-height: 70px;
 }
+.feauters-list {
+  display:flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+  /*--------Временно для сетки--------*/
+  min-height: 170px;
+}
+.feauters-item {
+  widht: 300px;
+  /*--------Временно для сетки--------*/
+  min-height: 170px;
+}
+  
+
+  
   
   
   
