@@ -33,25 +33,26 @@
 	  <li> <a href="#">Магазин</a></li>
 	  <li class="breadcrumbs-current"> Средства для ухода </li>
 	</ul>  
-	<section class="filters">
-	<h2 class="visually-hidden">  Фильтр товара </h2>
-	<form class="filter" method ="get" action=" https://echo.htmlacademy.ru">  
-	    <fieldset>
-		   <legend> Производители </legend>
-		   <ul>
-		       <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="baxter-of-california" checked > 
-             <label for="baxter-of-california">  Baxter of California </label> </li>
-		       <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="mr-natty" id="Mr-Natty" checked> 
-             <label for="Mr-Natty"> Mr Natty </label> </li>
-			   <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="suavecito" id="Suavecito" checked>
-           <label for="Suavecito"> Suavecito </label> </li>
-			   <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="malin+goetz" id="malin-goetz" checked>
-           <label for="malin-goetz"> Malin Goetz </label> </li>
-			   <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murray's" id="murray's" checked>
-           <label for="murray's"> Murray's </label> </li>
-			   <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="american crew" id="American-Crew" checked> 
-           <label for="American-Crew">American Crew </label></li>
-		   </ul>
+  <div class="catalog-columns">
+	  <section class="filters">
+	   <h2 class="visually-hidden">  Фильтр товара </h2>
+	     <form class="filter" method ="get" action=" https://echo.htmlacademy.ru">  
+	       <fieldset>
+		       <legend> Производители </legend>
+		        <ul>
+		          <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="baxter-of-california" checked > 
+                <label for="baxter-of-california">  Baxter of California </label> </li>
+		          <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="mr-natty" id="Mr-Natty" checked> 
+                <label for="Mr-Natty"> Mr Natty </label> </li>
+			        <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="suavecito" id="Suavecito" checked>
+                <label for="Suavecito"> Suavecito </label> </li>
+			        <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="malin+goetz" id="malin-goetz" checked>
+               <label for="malin-goetz"> Malin Goetz </label> </li>
+			        <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murray's" id="murray's" checked>
+               <label for="murray's"> Murray's </label> </li>
+			        <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="american crew" id="American-Crew" checked> 
+                <label for="American-Crew">American Crew </label></li>
+		        </ul>
 		
 		</fieldset>
 		
@@ -65,10 +66,11 @@
 				<li class="filter-option"> <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product group" value="accessories" id="filter-accessories"> 
           <label for="filter-accessories">Аксессуары </label> </li>
 		    </ul>	
-        </fieldset>			
+        </fieldset>			  
 			<button type="submit" class="filter-button button"> Показать </button>
 	 </form>
 	 </section>
+   </div> 
 	 <section class="catalog">
 	    <h2 class="visually-hidden">Список средств для ухода</h2>
 		<ul class="catalog-list">
