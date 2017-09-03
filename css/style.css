@@ -351,6 +351,9 @@ body {
   /*--------Временно для сетки--------*/
   min-height: 70px;
 }
+.features {
+  margin-bottom: 80px;
+}
 .feauters-list {
   display:flex;
   justify-content: space-between;
@@ -366,6 +369,26 @@ body {
   /*--------Временно для сетки--------*/
   min-height: 170px;
 }
+.index-columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+  /*--------Временно для сетки--------*/
+  background-image: none;
+  background-color: transparent;
+}
+.news {
+  widht: 380px;
+  /*--------Временно для сетки--------*/
+  min-height: 315px;
+}
+.gallery {
+  widht: 300px;
+  /*--------Временно для сетки--------*/
+  min-height: 315px;
+}
+  
+  
   
 
   
