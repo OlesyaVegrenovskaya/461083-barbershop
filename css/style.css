@@ -373,6 +373,8 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 50px 80px;
+  margin-bottom: 35px;
+  
   /*--------Временно для сетки--------*/
   background-image: none;
   background-color: transparent;
@@ -386,6 +388,16 @@ body {
   widht: 300px;
   /*--------Временно для сетки--------*/
   min-height: 315px;
+}
+.contacts {
+  widht: 380px;
+  /*--------Временно для сетки--------*/
+  min-height: 295px;
+}
+.appointment {
+  widht: 300px;
+  /*--------Временно для сетки--------*/
+  min-height: 340px;
 }
   
   
